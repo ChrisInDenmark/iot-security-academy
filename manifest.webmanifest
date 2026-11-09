@@ -1,0 +1,11 @@
+{
+  "name": "IoT Security Manager Academy",
+  "short_name": "Security Academy",
+  "description": "IoT product security training and spaced-repetition quizzes",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d2036",
+  "theme_color": "#0d2036",
+  "icons": [{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

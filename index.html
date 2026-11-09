@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d2036" />
+  <meta name="description" content="IoT Security Manager Academy — daily lessons, quizzes and spaced repetition." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <title>IoT Security Manager Academy</title>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><div class="brand-icon">◆</div><div><strong>SECURITY ACADEMY</strong><small>IoT Security Manager • v1.0</small></div></div><div class="top-actions"><span id="storage-status" class="storage-status">On-device progress</span><button id="theme-btn" class="icon-button" aria-label="Toggle light/dark theme" title="Toggle theme">☼</button></div></header>
+  <main class="shell">
+    <aside class="sidebar" aria-label="App navigation">
+      <button class="nav active" data-page="dashboard"><span>◫</span> Dashboard</button>
+      <button class="nav" data-page="learn"><span>▤</span> Learn</button>
+      <button class="nav" data-page="review"><span>↻</span> Memory reviews <span id="due-badge" class="nav-count" hidden></span></button>
+      <button class="nav" data-page="assessment"><span>✓</span> Assessments</button>
+      <button class="nav" data-page="portfolio"><span>▣</span> Portfolio</button>
+      <button class="nav" data-page="settings"><span>⚙</span> Settings</button>
+      <div class="sidebar-note">20 min × 5 days/week<br><span>Learn → Recall → Apply → Explain</span></div>
+    </aside>
+    <div id="view" class="content" aria-live="polite"></div>
+  </main>
+  <footer>Independent learning resource • Check official standards and current legal requirements before making compliance decisions.</footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
