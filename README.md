@@ -1,4 +1,4 @@
-# IoT Security Manager Academy — Version 1.1
+# IoT Security Manager Academy — Version 1.3
 
 A static, offline-capable learning app for IoT product-security managers. No build tools or backend.
 
@@ -55,3 +55,23 @@ Edit the `window.ACADEMY.lessons` array in `data.js`. Each lesson contains an ID
 
 ### Updating a GitHub Pages installation from v1.0
 Upload the *contents* of this ZIP to the **root** of the existing repository (Code → Add file → Upload files). Commit with overwrites/replacements for existing files. The new `enhancements.js` **must** be uploaded alongside updated `app.js`, `style.css`, `data.js`, `index.html`, `service-worker.js`, and README.md. No changes to Settings → Pages are needed. The service-worker cache name has changed to trigger a refreshed asset cache. If you still see an older version, refresh the page (or close and reopen the installed PWA). Export your progress before changing devices/browsers or clearing browser data.
+
+
+## v1.2 — required steps per lesson
+
+- Study the diagram and tick the diagram acknowledgement.
+- Pass the **2-question lesson quiz** (80% threshold means both answers must be correct).
+- Write an original answer (minimum 40 characters), reveal the model response, and honestly tick **all** essential rubric criteria. Revise your answer if necessary. This is a self-check, **not AI grading**.
+- A lesson is marked complete only when all three requirements are fulfilled. A practical recall exercise becomes due 3 days afterward.
+- To begin again, go to **Settings → Export progress** (optional backup), then **Reset all progress**.
+- The app uses the original browser storage key, so backups from earlier 1.x versions can still import. Earlier quiz-only completions are re-evaluated under v1.2 requirements.
+- Upload all extracted files to the GitHub repository root. Cache version is bumped, so reload the hosted app after deployment.
+
+
+## Version 1.3 — substantive lessons
+- All 20 foundation lessons now include a topic-specific deeper learning section: key terms, three explanatory passages, a worked IoT case and a pause-and-reason prompt before the practical exercise. The content may introduce advanced concepts; quiz difficulty still defines demonstrated mastery.
+- The diagram, mandatory quiz and practical written self-check are retained from version 1.2.
+- Each lesson includes a further-reading link. Official legal requirements and dates must be checked against current texts and product context. These are original explanatory lessons, **not reproduced IEC standards**.
+- The 20-minute session is a **learning target, not a forced timer**: reading speed and the depth of your written answer determine actual duration.
+- Upload **deep-content.js** in addition to all existing files when updating GitHub. The existing local-storage key is unchanged, so your progress is preserved. To restart: Settings → Export progress → Reset all progress.
+- The app is intentionally still a small, four-week foundation release. Weeks 5–12 are not yet implemented.

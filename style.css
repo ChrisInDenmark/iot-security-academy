@@ -20,3 +20,22 @@
 .feedback-panel{background:var(--panel2);border:1px solid var(--accent);border-radius:14px;padding:17px;margin-top:18px}
 .feedback-panel h3{margin:0 0 7px}.review-checks{display:grid;gap:9px;margin:12px 0}.review-check{display:flex;align-items:flex-start;gap:9px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.5;cursor:pointer}.review-check input{margin-top:5px;accent-color:var(--accent);width:17px;height:17px;flex-shrink:0}.feedback-score{font-weight:800;color:var(--accent);font-size:13px;margin:12px 0}.model-answer{border-left:3px solid var(--accent);padding:12px;background:var(--panel);border-radius:8px}.model-answer p{margin:5px 0 0}
 @media(max-width:720px){.visual-eight{grid-template-columns:repeat(2,minmax(0,1fr))}.visual-cia{grid-template-columns:1fr}.visual-flow .visual-node{flex-basis:115px}.visual-arrow{display:none}}
+
+/* v1.2 mandatory lesson assessment workflow */
+.requirement-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}.visual-ack{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel2);font-size:14px;font-weight:650}.visual-ack input{width:19px;height:19px;accent-color:var(--accent)}.concept-list{display:grid;gap:11px;margin:12px 0 17px;padding-left:25px}.concept-list li{padding-left:4px}.exercise-section,.quiz-requirement{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}.pass-note,.incomplete-note{padding:14px;border-radius:10px;margin-top:20px;background:var(--accent-dark);color:var(--accent);font-weight:700}.incomplete-note{background:var(--panel2);color:var(--warning)}
+
+/* v1.3: detailed, readable lessons */
+.deep-lesson{border-top:1px solid var(--line);margin:24px 0 26px;padding-top:27px;display:grid;gap:12px}
+.deep-focus{font-size:clamp(20px,2.4vw,26px);line-height:1.3;margin:0 0 6px;letter-spacing:-.02em}
+.deep-lesson h3{font-size:18px;margin:12px 0 0}
+.deep-terms{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.deep-term{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+.deep-term strong{font-size:15px;color:var(--accent);display:block;margin-bottom:5px}
+.deep-term p{font-size:14px;line-height:1.55;margin:0}
+.deep-explanation{border-left:3px solid var(--accent);padding:4px 0 4px 15px}
+.deep-section-tag{font-size:11px;letter-spacing:.08em;font-weight:750;color:var(--accent);margin:0 0 6px}
+.deep-explanation p,.worked-example p,.thinking-check p{line-height:1.76;max-width:83ch;margin:0 0 6px}
+.worked-example{background:var(--panel2);padding:18px;border:1px solid var(--line);border-radius:14px}
+.thinking-check{padding:18px;border:1px dashed var(--accent);border-radius:14px}
+.source-note{font-size:12px;color:var(--muted);margin:0 0 12px}
+@media(max-width:520px){.deep-terms{grid-template-columns:1fr}.deep-lesson{gap:10px}.deep-explanation p{line-height:1.65}}
