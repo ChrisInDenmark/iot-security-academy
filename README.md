@@ -1,4 +1,4 @@
-# IoT Security Manager Academy — Version 1.0
+# IoT Security Manager Academy — Version 1.1
 
 A static, offline-capable learning app for IoT product-security managers. No build tools or backend.
 
@@ -44,3 +44,14 @@ Edit the `window.ACADEMY.lessons` array in `data.js`. Each lesson contains an ID
 - Written exercises are self-assessed, not automatically scored.
 - The learning plan covers **weeks 1–4**, with weeks 5–12 planned as later extensions.
 - Source material should be reviewed when regulatory status changes. Refer to the current EU legal texts and IEC/ETSI publications for authoritative compliance decisions.
+
+
+## Version 1.1: visual learning and exercise feedback
+
+- Every one of the 20 lessons has a visual concept diagram (CIA, IoT trust boundaries, RED/CRA, IEC 62443 eight practices, secure SDLC and traceability).
+- Write your exercise answer, then click **Validate my answer** to reveal a lesson-specific model answer and checklist. Tick each criterion your answer actually covers, then click **Save my self-check**. This is self-assessment, **not automated AI grading** or an auditor's approval.
+- Practical self-check scores and dates are stored locally and included in backups.
+- Existing v1.0 saved progress is preserved because the same localStorage key and data schema are used.
+
+### Updating a GitHub Pages installation from v1.0
+Upload the *contents* of this ZIP to the **root** of the existing repository (Code → Add file → Upload files). Commit with overwrites/replacements for existing files. The new `enhancements.js` **must** be uploaded alongside updated `app.js`, `style.css`, `data.js`, `index.html`, `service-worker.js`, and README.md. No changes to Settings → Pages are needed. The service-worker cache name has changed to trigger a refreshed asset cache. If you still see an older version, refresh the page (or close and reopen the installed PWA). Export your progress before changing devices/browsers or clearing browser data.

@@ -1,6 +1,6 @@
 /* Original educational summaries, not reproductions of standards. Dates and applicability must be verified. */
 window.ACADEMY = {
- version:'1.0',
+ version:'1.1',
  weeks:[
   {title:'Security foundations',goal:'Recognize the essential terminology and scope of product security.'},
   {title:'EU laws and IoT standards',goal:'Distinguish legal obligations, standards and conformity evidence.'},
